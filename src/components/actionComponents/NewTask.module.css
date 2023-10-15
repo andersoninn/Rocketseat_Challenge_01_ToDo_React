@@ -1,0 +1,79 @@
+
+.newTask{
+    background: var(--gray-500);
+    color: var(--gray-100);
+    padding: 16px;
+    min-height: 54px;
+    width: 736px;
+    border: none;
+    border-radius: 8px;
+
+    margin: auto;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.875rem;
+
+}
+
+.checkbox{
+    display: flex;
+   
+}
+.checkbox span{
+    background-color: var(--gray-500);
+    border: 3px solid var(--blue);
+    border-radius: 50% ;
+    min-width: 17px;
+    max-height: 17px;
+    margin-right: 16px;
+
+    cursor: pointer;
+}
+
+.checked{
+    display: flex;
+}
+.checked span{  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: var(--purple);
+    border: 3px solid var(--purple);
+    border-radius: 50% ;
+    width: 17px;
+    height: 17px;
+    margin-right: 16px;
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+.checked p{
+    text-decoration: line-through;
+}
+
+.trash button {
+    border: 0px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background: var(--gray-500);
+    color: var(--gray-300);
+}
+
+.trash:hover button{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background: var(--gray-400);
+    color: var(--danger);
+}
+
+
+
+
+
+
+

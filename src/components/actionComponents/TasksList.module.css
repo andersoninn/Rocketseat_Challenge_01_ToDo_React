@@ -1,0 +1,54 @@
+.tasks{
+    height: 287px;
+    width: 736px;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.header{
+    font-size: 0.875rem;
+    font-weight: 700;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+.header span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 2px 8px;
+    border-radius: 25px;
+}
+.tasksCreated{
+color: var(--blue);
+}
+
+.tasksCompleted{
+color: var(--purple);
+}
+.body{
+    border-top: 1px solid var(--gray-400) ;
+    border-radius: 8px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.body p{
+    color: var(--gray-300);
+    font-size: 1rem;
+}
+
+.body p:first-child{
+    font-weight: 700;
+}
+
+.withoutTask{
+    padding-top: 64px;
+}
+
+.withTask{
+margin-top: -5px;
+}
+

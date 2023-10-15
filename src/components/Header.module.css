@@ -1,0 +1,26 @@
+.header {
+    background-color: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    height: 200px;
+    
+}
+.header span{
+    padding-bottom: 10px;
+}
+.header img{
+    margin-right: 12px;
+}
+
+.logo{
+    color: var(--blue);
+}
+.to{
+    color: var(--blue);
+}
+.do{
+    color: var(--purple);
+}
