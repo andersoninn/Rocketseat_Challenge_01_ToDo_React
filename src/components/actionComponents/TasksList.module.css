@@ -12,19 +12,22 @@
     display: flex;
     justify-content: space-between;
 }
+
 .header span {
     background: var(--gray-400);
     color: var(--gray-200);
     padding: 2px 8px;
     border-radius: 25px;
 }
+
 .tasksCreated{
-color: var(--blue);
+    color: var(--blue);
 }
 
 .tasksCompleted{
-color: var(--purple);
+    color: var(--purple);
 }
+
 .body{
     border-top: 1px solid var(--gray-400) ;
     border-radius: 8px;
@@ -49,6 +52,6 @@ color: var(--purple);
 }
 
 .withTask{
-margin-top: -5px;
+    margin-top: -5px;
 }
 
