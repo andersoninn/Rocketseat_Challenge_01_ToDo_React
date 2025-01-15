@@ -1,27 +1,53 @@
-# React + TypeScript + Vite
+# ✅ ToDo List - Desafio Final do Módulo 01 Rocketseat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o **desafio final** do módulo 01 do curso React da Rocketseat, onde o objetivo foi criar uma **Task List**, utilizando **React**. O projeto foi desenvolvido seguindo um layout e briefing predefinidos, com foco em gerenciar tarefas e exibir interações como adicionar, remover e marcar tarefas como concluídas.
 
-Currently, two official plugins are available:
+## 🌐 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto está **deployado** e você pode visualizá-lo online através do link abaixo:
 
-## Expanding the ESLint configuration
+[ToDo List - Vercel](https://rocketseat-challenge-01-to-do-react.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Tecnologias Utilizadas
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **ReactJS**: Biblioteca para construção da interface de usuário.
+- **TypeScript**: Tipagem estática para maior segurança e escalabilidade no código.
+- **Styled-Components**: Para estilização dinâmica e modular da interface.
+- **React Hooks**: Utilização de hooks como `useState` e `useEffect` para gerenciamento de estado e efeitos colaterais.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🎨 Funcionalidades
+
+- **Adicionar tarefas**: Permite ao usuário adicionar novas tarefas à lista.
+- **Remover tarefas**: Remover tarefas da lista.
+- **Marcar tarefas como concluídas**: Usuário pode marcar tarefas como feitas, alterando seu estilo.
+- **Armazenamento local**: As tarefas são armazenadas no **Local Storage**, garantindo persistência entre as sessões.
+
+## 🚀 Como Usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/andersoninn/Rocketseat_Challenge_01_ToDo_React.git
+
+2. Instale as dependências:
+   ```bash
+   npm install
+
+3. Inicie a aplicação:
+   ```bash
+   npm run dev
+ 
+4. Abra o navegador e acesse:
+   ```bash
+   http://localhost:3000
+
+## 📝 Lições Aprendidas
+Criação de uma lista de tarefas interativa com React.
+Gerenciamento de estado local com React Hooks como useState.
+Persistência de dados no Local Storage para manter as tarefas entre as sessões.
+Estilização dinâmica e modular utilizando Styled-Components.
+
+---
+
+✨ **Vamos nos conectar!**  
+Se você gostou do projeto ou quer trocar ideias, [me encontre no LinkedIn](https://www.linkedin.com/in/andersoninn/). 😊
